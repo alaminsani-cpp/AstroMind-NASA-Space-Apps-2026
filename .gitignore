@@ -1,0 +1,21 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Archives and temporary files
+*.zip
+*.log
+*.tmp

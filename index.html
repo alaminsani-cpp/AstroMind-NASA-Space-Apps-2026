@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d1c">
+  <meta name="description" content="AstroMind: an interactive, NASA-sourced educational space mission explorer by Team Orbit_Smiths for NASA Space Apps Challenge 2026.">
+  <meta property="og:title" content="AstroMind | Where missions end, discoveries begin">
+  <meta property="og:description" content="Explore the stories of robotic explorers on the Moon, Mars, and beyond.">
+  <meta property="og:type" content="website">
+  <title>AstroMind — Explore the Missions That Changed Space</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/rocket.svg">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="AstroMind home">
+        <img src="assets/icons/rocket.svg" alt="" width="39" height="39">
+        <span>ASTRO<span class="brand-accent">MIND</span><small>SPACE STORIES, REIMAGINED</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#missions">Missions</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#team">Our team</a>
+      </nav>
+      <a class="nav-cta" href="#missions">Start exploring <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="pill"><span class="pulse"></span> NASA SPACE APPS CHALLENGE 2026 · TEAM ORBIT_SMITHS</span>
+        <h1 id="hero-title">WHERE MISSIONS END,<br><em>DISCOVERIES</em> BEGIN.</h1>
+        <p>Some explorers returned. Others fell silent. Every one left a story worth discovering. Travel from lunar valleys to the red sands of Mars and into the distant reaches of space.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#missions">Explore missions <span aria-hidden="true">→</span></a>
+          <a class="button button-ghost" href="https://www.figma.com/proto/OkwNxRuUFlf88F82MKg0HP/Nasa-space-app-challenge-2026?node-id=48-3&t=hzxmppfxNdOJ6Eyk-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A6&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">Original Figma game <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-fineprint">This website is a playable educational companion prototype; the original mobile game design is linked above.</p>
+      </div>
+      <div class="hero-visual" role="img" aria-label="AstroMind game opening artwork with astronauts, a rocket, and the start button">
+        <div class="visual-topline"><span><span class="tiny-dot"></span> ORIGINAL GAME CONCEPT</span><span>01 / 02</span></div>
+        <div class="visual-bottomline"><span>MISSION CONTROL / ASTROMIND</span><span>EST. 2026</span></div>
+      </div>
+      <div class="hero-strip" aria-label="Project at a glance">
+        <div><strong id="mission-total">06</strong><span>CURATED MISSIONS</span></div>
+        <div><strong>03</strong><span>EXPLORATION ZONES</span></div>
+        <div><strong id="quiz-total">18</strong><span>KNOWLEDGE QUESTIONS</span></div>
+        <div class="strip-statement">Real NASA mission history.<br><strong>Reimagined for curious minds.</strong></div>
+      </div>
+    </section>
+
+    <section class="section section-missions" id="missions" aria-labelledby="missions-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / YOUR INTERSTELLAR FIELD GUIDE</p><h2 id="missions-title">CHOOSE YOUR <em>MISSION.</em></h2><p>Search mission stories, uncover discoveries, then test what you learned.</p></div>
+          <div class="progress-widget" aria-live="polite"><span>MISSION PROGRESS</span><strong id="progress-label">0 / 6 completed</strong><div class="progress-track"><div id="progress-bar"></div></div><button id="reset-progress" class="text-button" type="button">Reset progress</button></div>
+        </div>
+        <div class="toolbar">
+          <div class="filters" id="destination-filters" role="group" aria-label="Filter missions by destination">
+            <button type="button" class="filter-chip selected" data-filter="All" aria-pressed="true">All destinations</button>
+            <button type="button" class="filter-chip" data-filter="Moon" aria-pressed="false">🌙 Moon</button>
+            <button type="button" class="filter-chip" data-filter="Mars" aria-pressed="false">🔴 Mars</button>
+            <button type="button" class="filter-chip" data-filter="Deep Space" aria-pressed="false">✨ Deep space</button>
+          </div>
+          <label class="search-field"><span class="sr-only">Search missions</span><span aria-hidden="true">⌕</span><input type="search" id="mission-search" placeholder="Search the universe…" autocomplete="off"></label>
+        </div>
+        <p class="status-note">Mission statuses are simplified for learning and are not live telemetry. Voyager 1 is an active-mission contrast case.</p>
+        <div id="mission-grid" class="mission-grid" aria-live="polite"><p class="loading-message">Loading mission library…</p></div>
+        <p id="load-error" class="load-error" hidden>Mission data could not be loaded. Run the local server described in the README, or try again later.</p>
+      </div>
+    </section>
+
+    <section class="section story-section" id="how-it-works" aria-labelledby="how-title">
+      <div class="container story-grid">
+        <div class="story-intro"><p class="eyebrow">02 / LEARN THROUGH EXPLORATION</p><h2 id="how-title">MORE THAN <em>A HISTORY LESSON.</em></h2><p>We connect the hardware to the human curiosity behind it. Each chapter answers three questions: What was it? What did it discover? What did it leave behind?</p><a href="https://www.youtube.com/watch?v=c4obotsspJE" target="_blank" rel="noopener noreferrer" class="inline-link">Watch the project video <span aria-hidden="true">↗</span></a></div>
+        <div class="steps">
+          <div class="step"><span class="step-number">01</span><div><h3>Pick your destination</h3><p>Choose between the Moon, Mars, and deep space.</p></div><span class="step-glyph" aria-hidden="true">◎</span></div>
+          <div class="step"><span class="step-number">02</span><div><h3>Read the mission log</h3><p>Discover real NASA missions, their science, and what happened next.</p></div><span class="step-glyph" aria-hidden="true">▤</span></div>
+          <div class="step"><span class="step-number">03</span><div><h3>Take the knowledge check</h3><p>Answer three questions and keep your progress on this device.</p></div><span class="step-glyph" aria-hidden="true">✦</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="team" aria-labelledby="team-title">
+      <div class="container">
+        <div class="team-heading"><div><p class="eyebrow">03 / THE PEOPLE BEHIND THE MISSION</p><h2 id="team-title">MEET <em>ORBIT_SMITHS.</em></h2><p>Six contributors, one mission: make the stories of space exploration accessible to a new generation.</p></div><a class="inline-link" href="https://github.com/kamrulpi2/Astromind_NASA-space-Apps-Challenge-2026" target="_blank" rel="noopener noreferrer">Original GitHub repository ↗</a></div>
+        <div class="team-art" role="img" aria-label="Team Orbit_Smiths group composition with six members and their roles"></div>
+        <div class="team-list">
+          <div><span>01</span><strong>Kamrul Islam</strong><small>Team Lead</small></div>
+          <div><span>02</span><strong>Sajjadul Islam</strong><small>Researcher</small></div>
+          <div><span>03</span><strong>Mithun Modak</strong><small>UI Designer</small></div>
+          <div><span>04</span><strong>Al Amin Sani</strong><small>Developer</small></div>
+          <div><span>05</span><strong>Shamim Pramanik</strong><small>Video Editor</small></div>
+          <div><span>06</span><strong>Keya Akter Soma</strong><small>Script Writer</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container closing-panel" aria-labelledby="closing-title">
+      <div class="planet-art" aria-hidden="true"></div><p class="eyebrow">THE UNIVERSE IS FULL OF UNFINISHED STORIES</p><h2 id="closing-title">KEEP <em>EXPLORING.</em></h2><p>From silent rovers to active interstellar probes, every mission adds a chapter to humanity's story.</p><a class="button button-primary" href="#missions">Back to missions →</a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><img src="assets/icons/rocket.svg" alt="" width="32" height="32"><strong>ASTROMIND</strong><span>© 2026 Team Orbit_Smiths</span></div><div><p>Built for NASA Space Apps Challenge 2026.</p><p>Independent educational project, not endorsed by or affiliated with NASA.</p></div><div class="footer-links"><a href="https://science.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA Science ↗</a><a href="https://github.com/kamrulpi2/Astromind_NASA-space-Apps-Challenge-2026" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span id="reviewed-date">Sources reviewed Nov 2026</span></div></div></footer>
+
+  <dialog id="mission-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-shell">
+      <button type="button" class="dialog-close" id="dialog-close" aria-label="Close mission details">✕</button>
+      <div id="dialog-content"></div>
+    </div>
+  </dialog>
+</body>
+</html>

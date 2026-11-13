@@ -1,0 +1,274 @@
+{
+  "metadata": {
+    "title": "AstroMind mission library",
+    "version": "1.0.0",
+    "lastReviewed": "2026-11-13",
+    "description": "Curated educational summaries based on cited NASA sources; this is not a live NASA data feed."
+  },
+  "missions": [
+    {
+      "id": "apollo-17-rover",
+      "name": "Apollo 17 Lunar Rover",
+      "destination": "Moon",
+      "eyebrow": "THE LAST APOLLO LANDING",
+      "hardware": "Lunar Roving Vehicle",
+      "launchDate": "1972-12-07",
+      "endDate": "1972-12-19",
+      "statusLabel": "Left on the Moon",
+      "statusKind": "retired",
+      "summary": "The final Apollo crew drove across the Taurus–Littrow Valley, collecting evidence that still informs lunar science.",
+      "story": "In December 1972, Apollo 17 became the last Apollo mission to land humans on the Moon. The astronauts explored the Taurus–Littrow region with a lunar rover. The rover did not return to Earth, but the observations, experiments, and samples from the mission did. Its story reminds us that equipment can stay behind while knowledge travels home.",
+      "discoveries": [
+        "The crew studied rocks representing different ages and geological processes.",
+        "Apollo 17 returned lunar samples that scientists continue to investigate.",
+        "The rover extended how far the astronauts could explore from the landing site."
+      ],
+      "facts": [
+        { "label": "Destination", "value": "Taurus–Littrow Valley, Moon" },
+        { "label": "Mission launch", "value": "7 Dec 1972" },
+        { "label": "Hardware fate", "value": "Lunar rover remained on the surface" }
+      ],
+      "quiz": [
+        {
+          "question": "What did the Apollo 17 rover help astronauts do?",
+          "options": ["Explore farther from their landing site", "Travel to Mars", "Refuel a satellite", "Land the command module"],
+          "correctIndex": 0,
+          "explanation": "The lunar rover allowed the crew to explore more of the Taurus–Littrow area."
+        },
+        {
+          "question": "Where did Apollo 17 land?",
+          "options": ["Oceanus Procellarum", "Taurus–Littrow Valley", "Gusev Crater", "Titan"],
+          "correctIndex": 1,
+          "explanation": "NASA chose Taurus–Littrow for its interesting mix of lunar geological features."
+        },
+        {
+          "question": "What happened to the lunar rover after the mission?",
+          "options": ["It flew to Saturn", "It returned with the crew", "It stayed on the Moon", "It was moved to Mars"],
+          "correctIndex": 2,
+          "explanation": "The Apollo 17 rover is among the hardware left behind on the lunar surface."
+        }
+      ],
+      "source": "https://www.nasa.gov/mission/apollo-17/"
+    },
+    {
+      "id": "surveyor-3",
+      "name": "Surveyor 3",
+      "destination": "Moon",
+      "eyebrow": "A ROBOT BEFORE APOLLO",
+      "hardware": "Robotic lunar lander",
+      "launchDate": "1967-04-17",
+      "endDate": "1967-05-04",
+      "statusLabel": "Left on the Moon",
+      "statusKind": "retired",
+      "summary": "A small robotic lander tested lunar soil years before astronauts walked over to inspect it.",
+      "story": "Surveyor 3 landed on the Moon in April 1967 and used a scoop to test the lunar surface. It helped NASA learn whether the ground could support a future crewed lunar module. The spacecraft fell silent in May 1967. In 1969, Apollo 12 astronauts visited Surveyor 3 and returned selected components to Earth; much of the lander remained on the Moon.",
+      "discoveries": [
+        "Its soil sampler helped assess the lunar surface's mechanical properties.",
+        "Its observations helped engineers prepare for crewed landings.",
+        "Apollo 12 later recovered parts for study of prolonged lunar exposure."
+      ],
+      "facts": [
+        { "label": "Destination", "value": "Oceanus Procellarum, Moon" },
+        { "label": "Landing", "value": "20 Apr 1967" },
+        { "label": "Last contact", "value": "4 May 1967" }
+      ],
+      "quiz": [
+        {
+          "question": "What did Surveyor 3 test on the Moon?",
+          "options": ["The strength of lunar soil", "The rings of Saturn", "The Martian atmosphere", "Comet ice"],
+          "correctIndex": 0,
+          "explanation": "Surveyor 3 used a surface sampler to investigate lunar soil."
+        },
+        {
+          "question": "Which Apollo mission visited Surveyor 3?",
+          "options": ["Apollo 11", "Apollo 12", "Apollo 15", "Apollo 17"],
+          "correctIndex": 1,
+          "explanation": "Apollo 12 astronauts visited the lander in November 1969."
+        },
+        {
+          "question": "Why were some Surveyor 3 parts brought back?",
+          "options": ["To build another rover", "To power a spacecraft", "To examine exposure to the lunar environment", "To repair Surveyor 4"],
+          "correctIndex": 2,
+          "explanation": "Studying returned parts helped researchers examine what exposure to the Moon had done."
+        }
+      ],
+      "source": "https://science.nasa.gov/mission/surveyor-3/"
+    },
+    {
+      "id": "opportunity",
+      "name": "Opportunity",
+      "destination": "Mars",
+      "eyebrow": "A 90-DAY PLAN, A 15-YEAR LEGACY",
+      "hardware": "Mars Exploration Rover",
+      "launchDate": "2003-07-07",
+      "endDate": "2019-02-13",
+      "statusLabel": "Mission complete",
+      "statusKind": "retired",
+      "summary": "A six-wheeled explorer revealed evidence of ancient water on Mars and far outlived its planned mission.",
+      "story": "Opportunity arrived on Mars in January 2004 for a mission originally designed to last about 90 Martian days. It kept exploring for nearly 15 years, discovering clues about water in Mars's distant past. A planet-wide dust storm in 2018 interrupted communications. NASA declared the mission complete in February 2019; the rover remains on Mars.",
+      "discoveries": [
+        "Found geological evidence that water once shaped portions of Mars.",
+        "Traveled over 45 kilometers across the surface.",
+        "Demonstrated the value of long-lived robotic exploration."
+      ],
+      "facts": [
+        { "label": "Landing", "value": "24 Jan 2004" },
+        { "label": "Last contact", "value": "June 2018" },
+        { "label": "Mission closure", "value": "13 Feb 2019" }
+      ],
+      "quiz": [
+        {
+          "question": "What was one major subject of Opportunity's research?",
+          "options": ["Ancient water on Mars", "Saturn's rings", "Lunar eclipses", "The Sun's core"],
+          "correctIndex": 0,
+          "explanation": "Opportunity studied rocks and soils for clues about Mars's watery past."
+        },
+        {
+          "question": "What affected Opportunity's final communications?",
+          "options": ["A solar eclipse", "A severe Martian dust storm", "A Saturn flyby", "A lunar landing"],
+          "correctIndex": 1,
+          "explanation": "A large dust storm in 2018 contributed to the loss of communication."
+        },
+        {
+          "question": "When did NASA officially declare Opportunity's mission over?",
+          "options": ["2004", "2010", "2019", "2026"],
+          "correctIndex": 2,
+          "explanation": "NASA announced the end of Opportunity's mission in February 2019."
+        }
+      ],
+      "source": "https://science.nasa.gov/mission/mer-opportunity/"
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit",
+      "destination": "Mars",
+      "eyebrow": "THE ROBOT THAT KEPT EXPLORING",
+      "hardware": "Mars Exploration Rover",
+      "launchDate": "2003-06-10",
+      "endDate": "2011-05-25",
+      "statusLabel": "Mission complete",
+      "statusKind": "retired",
+      "summary": "Opportunity's twin found a wetter Martian past before its final transmission in 2010.",
+      "story": "Spirit landed in Gusev Crater in January 2004 to search for signs of past water. It drove far beyond its original 90-sol plan, uncovering evidence that Mars had once been wetter. After the rover became stuck in soft soil, NASA attempted to use it as a stationary science platform. Communications stopped in March 2010, and NASA ended recovery efforts in May 2011.",
+      "discoveries": [
+        "Found evidence supporting a wetter ancient Martian environment.",
+        "Traveled approximately 7.7 kilometers across Gusev Crater.",
+        "Operated much longer than its original mission design."
+      ],
+      "facts": [
+        { "label": "Landing", "value": "3 Jan 2004" },
+        { "label": "Last signal", "value": "March 2010" },
+        { "label": "Mission closure", "value": "25 May 2011" }
+      ],
+      "quiz": [
+        {
+          "question": "Which planet did Spirit explore?",
+          "options": ["Mars", "Venus", "Mercury", "Neptune"],
+          "correctIndex": 0,
+          "explanation": "Spirit explored the Martian surface."
+        },
+        {
+          "question": "What happened to Spirit before the mission ended?",
+          "options": ["It landed on Titan", "It became stuck in soft soil", "It returned to Earth", "It became a lunar orbiter"],
+          "correctIndex": 1,
+          "explanation": "Spirit became stuck and was later considered for stationary science."
+        },
+        {
+          "question": "What evidence did Spirit help reveal?",
+          "options": ["A second Moon", "Life on Jupiter", "Ancient wet conditions on Mars", "Saturn's magnetic poles"],
+          "correctIndex": 2,
+          "explanation": "Spirit contributed evidence that water played a role in Mars's history."
+        }
+      ],
+      "source": "https://science.nasa.gov/mission/mer-spirit/"
+    },
+    {
+      "id": "cassini",
+      "name": "Cassini–Huygens",
+      "destination": "Deep Space",
+      "eyebrow": "A FINAL DIVE INTO SATURN",
+      "hardware": "Saturn orbiter and Titan probe",
+      "launchDate": "1997-10-15",
+      "endDate": "2017-09-15",
+      "statusLabel": "Deliberate mission end",
+      "statusKind": "retired",
+      "summary": "Cassini rewrote our understanding of Saturn before ending in a carefully planned atmospheric entry.",
+      "story": "Cassini reached Saturn in 2004 and studied its atmosphere, rings, and moons for more than a decade. The Huygens probe descended to Titan in 2005. As Cassini ran low on maneuvering propellant, NASA planned a final plunge into Saturn in 2017 to avoid any future collision with moons that might be habitable. Unlike the surface rovers, Cassini was not left intact: it was intentionally destroyed in Saturn's atmosphere.",
+      "discoveries": [
+        "Revealed methane lakes and seas on Titan.",
+        "Observed plumes from Enceladus linked to an underground ocean.",
+        "Inspired future research into icy ocean worlds."
+      ],
+      "facts": [
+        { "label": "Destination", "value": "Saturn system" },
+        { "label": "Launch", "value": "15 Oct 1997" },
+        { "label": "Grand Finale", "value": "15 Sep 2017" }
+      ],
+      "quiz": [
+        {
+          "question": "Which planet did Cassini orbit?",
+          "options": ["Saturn", "Mars", "Earth", "Uranus"],
+          "correctIndex": 0,
+          "explanation": "Cassini was the first spacecraft to orbit Saturn."
+        },
+        {
+          "question": "Which Saturn moon has ice-and-vapor plumes?",
+          "options": ["Phobos", "Enceladus", "Europa", "Io"],
+          "correctIndex": 1,
+          "explanation": "Cassini observed plumes erupting from Saturn's moon Enceladus."
+        },
+        {
+          "question": "Why did Cassini deliberately enter Saturn's atmosphere?",
+          "options": ["To return to Earth", "To land on Titan", "To avoid contaminating potentially habitable moons", "To collect rock samples"],
+          "correctIndex": 2,
+          "explanation": "NASA wanted to preserve moons such as Enceladus and Titan for future study."
+        }
+      ],
+      "source": "https://science.nasa.gov/mission/cassini/"
+    },
+    {
+      "id": "voyager-1",
+      "name": "Voyager 1",
+      "destination": "Deep Space",
+      "eyebrow": "STILL OUT THERE, STILL EXPLORING",
+      "hardware": "Interstellar spacecraft",
+      "launchDate": "1977-09-05",
+      "endDate": null,
+      "statusLabel": "Active — contrast case",
+      "statusKind": "active",
+      "summary": "Not abandoned: Voyager 1 continues its extraordinary journey beyond the heliosphere.",
+      "story": "Launched in 1977, Voyager 1 visited Jupiter and Saturn before crossing into interstellar space in 2012. It is included as a contrast: not all old spacecraft are discarded. Some continue to do science long after their original mission. NASA's instrument and communications status can change; consult NASA's mission page for the latest updates.",
+      "discoveries": [
+        "Studied Jupiter and Saturn during landmark flybys.",
+        "Became the first spacecraft to enter interstellar space.",
+        "Continues scientific measurements beyond the Sun's heliosphere."
+      ],
+      "facts": [
+        { "label": "Launch", "value": "5 Sep 1977" },
+        { "label": "Interstellar entry", "value": "2012" },
+        { "label": "Status", "value": "Active as of data review; see NASA updates" }
+      ],
+      "quiz": [
+        {
+          "question": "Which two planets did Voyager 1 study up close?",
+          "options": ["Jupiter and Saturn", "Venus and Mars", "Mercury and Earth", "Uranus and Neptune"],
+          "correctIndex": 0,
+          "explanation": "Voyager 1 made major flybys of Jupiter and Saturn."
+        },
+        {
+          "question": "What boundary did Voyager 1 cross in 2012?",
+          "options": ["The Moon's orbit", "The heliopause into interstellar space", "Saturn's rings", "Mars's atmosphere"],
+          "correctIndex": 1,
+          "explanation": "Voyager 1 entered interstellar space beyond the heliosphere in 2012."
+        },
+        {
+          "question": "How is Voyager 1 different from the retired rovers here?",
+          "options": ["It has never launched", "It is on the Moon", "It remains an active mission", "It carries astronauts"],
+          "correctIndex": 2,
+          "explanation": "Voyager 1 demonstrates that older spacecraft can still be operational."
+        }
+      ],
+      "source": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    }
+  ]
+}

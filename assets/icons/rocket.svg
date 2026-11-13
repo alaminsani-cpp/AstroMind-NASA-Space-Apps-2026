@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="AstroMind rocket symbol">
+  <path d="M35 5c15 8 19 26 9 40L28 29C21 20 27 11 35 5Z" fill="#ffd34d" stroke="#ffedb3" stroke-width="2"/>
+  <path d="m28 29-9 1-8 12 18-5m15 8-2 10-12 3 5-18" fill="#b5d3ff" stroke="#e5f0ff" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="37" cy="23" r="5" fill="#152b55" stroke="#fff6d1" stroke-width="2"/>
+  <path d="M21 44c-4 5-3 9-7 13m17-10c-1 6-5 7-7 12" stroke="#ff9c5b" stroke-width="4" stroke-linecap="round"/>
+</svg>
